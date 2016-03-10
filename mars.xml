@@ -1,23 +1,28 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="15" y="25">
+  <block type="multimedia_playwav" id="105" x="14" y="3">
+    <field name="WAV">hi</field>
     <next>
-      <block type="controls_repeat" id="57" inline="true">
-        <value name="TIMES">
-          <block type="math_number" id="67">
-            <field name="NUM">10</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="robot_delay" id="69" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="76">
-                <field name="NUM">1000</field>
+      <block type="movement_forward" id="10">
+        <next>
+          <block type="controls_repeat" id="57" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="67">
+                <field name="NUM">10</field>
               </block>
             </value>
+            <statement name="DO">
+              <block type="robot_delay" id="69" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="76">
+                    <field name="NUM">1000</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="movement_stop" id="86"></block>
+            </next>
           </block>
-        </statement>
-        <next>
-          <block type="movement_stop" id="86"></block>
         </next>
       </block>
     </next>

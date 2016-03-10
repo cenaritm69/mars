@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_displaybmp" id="112" x="11" y="3">
-    <field name="BMP">hi</field>
+  <block type="multimedia_volume" id="119" x="32" y="43">
+    <field name="VOLUME">MEDIUM</field>
     <next>
       <block type="movement_forward" id="10">
         <next>

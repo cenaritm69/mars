@@ -14,6 +14,11 @@
                 <field name="NUM">1000</field>
               </block>
             </value>
+            <next>
+              <block type="multimedia_displaybmp" id="93">
+                <field name="BMP">Q-Carbon</field>
+              </block>
+            </next>
           </block>
         </statement>
         <next>

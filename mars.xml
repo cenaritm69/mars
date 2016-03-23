@@ -1,9 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="41" y="44">
+  <block type="movement_forward" id="1" x="-31" y="15">
     <next>
-      <block type="controls_repeat" id="2" inline="true">
+      <block type="controls_repeat" id="29" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="3">
+          <block type="math_number" id="36">
             <field name="NUM">10</field>
           </block>
         </value>
@@ -16,9 +16,6 @@
             </value>
           </block>
         </statement>
-        <next>
-          <block type="movement_stop" id="6"></block>
-        </next>
       </block>
     </next>
   </block>

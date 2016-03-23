@@ -1,9 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="-31" y="15">
     <next>
-      <block type="controls_repeat" id="29" inline="true">
+      <block type="controls_repeat" id="2" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="36">
+          <block type="math_number" id="3">
             <field name="NUM">10</field>
           </block>
         </value>
@@ -15,27 +15,23 @@
               </block>
             </value>
             <next>
-              <block type="movement_leftmotor" id="71" inline="true">
-                <value name="MOVLEFT">
-                  <block type="math_number" id="88">
+              <block type="movement_setmotors" id="20" inline="true">
+                <value name="BOTHMOVLEFT">
+                  <block type="math_number" id="27">
                     <field name="NUM">100</field>
                   </block>
                 </value>
-                <next>
-                  <block type="movement_rightmotor" id="81" inline="true">
-                    <value name="MOVRIGHT">
-                      <block type="math_number" id="95">
-                        <field name="NUM">95</field>
-                      </block>
-                    </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="40">
+                    <field name="NUM">50</field>
                   </block>
-                </next>
+                </value>
               </block>
             </next>
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="61"></block>
+          <block type="movement_stop" id="10"></block>
         </next>
       </block>
     </next>

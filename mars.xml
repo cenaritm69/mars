@@ -8,20 +8,34 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="led_select" id="232" inline="true">
+          <block type="led_select" id="280" inline="true">
             <field name="ACTION">ON</field>
             <value name="LED">
-              <block type="math_number" id="265">
-                <field name="NUM">10000</field>
+              <block type="math_number" id="287">
+                <field name="NUM">5</field>
               </block>
             </value>
             <next>
-              <block type="robot_delay" id="4" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="5">
-                    <field name="NUM">750</field>
+              <block type="movement_setmotors" id="321" inline="true">
+                <value name="BOTHMOVLEFT">
+                  <block type="math_number" id="328">
+                    <field name="NUM">105</field>
                   </block>
                 </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="335">
+                    <field name="NUM">90</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="robot_delay" id="4" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="5">
+                        <field name="NUM">750</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
               </block>
             </next>
           </block>

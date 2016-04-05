@@ -1,8 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="-31" y="15">
     <next>
-      <block type="oled_color" id="63">
-        <field name="OBJECT">GREEN</field>
+      <block type="movement_stutter" id="115">
         <next>
           <block type="controls_repeat" id="2" inline="true">
             <value name="TIMES">

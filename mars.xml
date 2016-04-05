@@ -8,8 +8,7 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="multimedia_displaybmp" id="178">
-            <field name="BMP">mars</field>
+          <block type="movement_stutter" id="204">
             <next>
               <block type="robot_delay" id="4" inline="true">
                 <value name="DELAY">

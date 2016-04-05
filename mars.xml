@@ -8,14 +8,15 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="robot_delay" id="4" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="5">
-                <field name="NUM">750</field>
-              </block>
-            </value>
+          <block type="movement_left" id="125">
             <next>
-              <block type="movement_stutter" id="115"></block>
+              <block type="robot_delay" id="4" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="5">
+                    <field name="NUM">750</field>
+                  </block>
+                </value>
+              </block>
             </next>
           </block>
         </statement>
